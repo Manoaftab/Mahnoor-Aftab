@@ -18,6 +18,7 @@ const CounterApp = () => {
       <View style={styles.buttonContainer}>
         <Button title="Increment" onPress={incrementCount} />
         <Button title="Decrement" onPress={decrementCount} />
+       <Text> Hello </Text>
       </View>
     </View>
   );
