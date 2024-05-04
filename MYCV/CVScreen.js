@@ -11,6 +11,7 @@ const CVScreen = () => {
         />
         <Text style={styles.headerText}>Mahnoor Aftab</Text>
         <Text style={styles.skills}>Skills: JavaScript, React Native, UI/UX Design</Text>
+        <Text> Hello </Text>
       </View>
       <View style={styles.line}></View>
       <ScrollView>
