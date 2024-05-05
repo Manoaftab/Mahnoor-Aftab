@@ -28,7 +28,7 @@ function LoginScreen({ navigation }) {
             <Text style={styles.buttonText}>LOGIN</Text>
           </TouchableOpacity>
           </View>
-  
+  <Text>  <Text> 
   <View style={styles.linkContainer}>
     <Text style={styles.forgotPassword}>Forgot Password?</Text>
   </View>
