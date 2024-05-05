@@ -19,6 +19,7 @@ const CounterApp = () => {
         <Button title="Increment" onPress={incrementCount} />
         <Button title="Decrement" onPress={decrementCount} />
        <Text> Hello </Text>
+        <Text> Hello1 </Text>
       </View>
     </View>
   );
