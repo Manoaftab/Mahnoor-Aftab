@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CSS for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-lbOAd1u3kT9e+XU4GmcvzApEM1KgHCw5C+qf6LPqAhKXl87Sb6pfvWGyWq4PZUgSa3oLQZnTsRJ1mfGHHunyGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#"><img src="logo.jpeg" alt="Your Logo"></a>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+                <button class="search-btn"><img src="search.png" alt="Search Icon"></button>
+            </div>
+            <div class="header-actions">
+                <button class="bell-icon"><img src="bell.png" alt="Bell Icon"></button>
+                <button class="store-btn">My Store</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sidebar navigation -->
+    <nav id="sidebar">
+        <ul>
+            <li><a href="home.html" style="background-color: #ccc; color: #000; padding: 10px;"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="order.html"><i class="fas fa-shopping-cart"></i> Orders</a></li>
+            <li><a href="product.html"><i class="fas fa-cube"></i> Products</a></li>
+            <li><a href="#"><i class="fas fa-users"></i> Customers</a></li>
+            <li><a href="#"><i class="fas fa-file-text"></i> Content</a></li>
+            <li><a href="#"><i class="fas fa-chart-bar"></i> Analytics</a></li>
+            <li><a href="#"><i class="fas fa-bullhorn"></i> Marketing</a></li>
+            <li><a href="#"><i class="fas fa-tags"></i> Discounts</a></li>
+            <li><a href="#" style="font-weight: bold; pointer-events: none;"><i class="fas fa-shopping-bag"></i> Sales Channel</a></li>
+            <li><a href="#"><i class="fas fa-shopping-bag"></i> Online Store</a></li>
+            <li><a href="#"><i class="fas fa-money-bill-wave"></i> Point of Sale</a></li>
+            <li><a href="#" style="font-weight: bold; pointer-events: none;"><i class="fas fa-cogs"></i> Apps</a></li>
+            <li><a href="#"><i class="fas fa-cogs"></i> Add Apps</a></li>
+            <li><a href="#" ><i class="fas fa-cog"></i> Settings</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content section -->
+    <main>
+        <section class="hero">
+            <h1>Welcome to Shopify!</h1>
+            <p>Answer some questions for faster,easier setup.</p>
+        </section>
+        <section class="featured-products">
+            <div class="product">
+                <h2>Where would you like to sell?</h2>
+                <p>Pick as many you like- you can always change these later.We'll make sure you're set up to sell in these places.</p>
+                <div class="box-container">
+                    <!-- First row -->
+                    <div class="box">
+                        <i class="fas fa-store"></i>
+                        <h3>An onine Store</h3>
+                        <p>Create a fully customizable website</p>
+                        <input type="checkbox">
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-globe"></i>
+                        <h3>In Person</h3>
+                        <p>Sell all retail stores,pop-ups or other physical locations</p>
+                        <input type="checkbox">
+                    </div>
+                </div>
+                <div class="box-container">
+                    <!-- Second row -->
+                    <div class="box">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>An existing website or blog</h3>
+                        <p>Add a buy button to your website</p>
+                        <input type="checkbox">
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-laptop"></i>
+                        <h3>Social Media</h3>
+                        <p>Reach customers on facebook,instagram, tiktok and more</p>
+                        <input type="checkbox">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Shopify</p>
+    </footer>
+</body>
+</html>
