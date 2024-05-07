@@ -21,6 +21,8 @@ const CounterApp = () => {
        <Text> Hello </Text>
         <Text> Hello1 </Text>
           <Text> Hello1 </Text>
+            <Text> Hello1 </Text>
+  
       </View>
     </View>
   );
