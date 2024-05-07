@@ -20,6 +20,7 @@ const CounterApp = () => {
         <Button title="Decrement" onPress={decrementCount} />
        <Text> Hello </Text>
         <Text> Hello1 </Text>
+          <Text> Hello1 </Text>
       </View>
     </View>
   );
